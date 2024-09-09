@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Centre BabaAli</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <link rel="icon" href="babaali logo.jpeg" class="logo" type="image/icon type">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "YOUR_PUBLIC_KEY",
+      });
+   })();
+</script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+  <div class="navbar">
+    <nav class="navbarprincipale">
+      <ul class="sidebar" style="display: none">
+        <li onclick="hideSidebar()">
+          <a 
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              fill="#e8eaed">
+              <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"></path></svg></a>
+        </li>
+        <li><a id="" href="#homepage">Acceuil</a></li>
+        <li><a href="#apropos">à propos</a></li>
+        <li><a href="#offres">Offres</a></li>
+        <li><a href="#contactme">contact</a></li>
+      </ul>
+      <ul>
+        <li  ><a href="#"><img class="babaaliloganav" src="babaali logo.jpeg" alt=""></a></li>
+        <li class="hideOnMobile"><a href="#homepage">Acceuil</a></li>
+        <li class="hideOnMobile"><a href="#apropos">à propos</a></li>
+        <li class="hideOnMobile"><a href="#offres">Offres</a></li>
+        <li class="hideOnMobile"><a href="#contactme">contact</a></li>
+        <li class="menu-button" onclick="showSidebar()">
+          <a 
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              fill="#e8eaed">
+              <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"></path></svg></a>
+        </li>
+      </ul>
+    </nav>
+    <script>
+      function showSidebar() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "flex";
+      }
+      function hideSidebar() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "none";
+      }
+    </script>
+  </div>
+    
+<div id="homepage" class="homepage">
+  <div class="hero">
+    <div class="divtitle"><h1 class="Acceuiltitle">Acceuil :</h1></div>
+    <h1 class="hometitle">Chez Centre BabaAli <br> Réussir vos études <span class="hometitle2"></span></h1>
+    <div class="homebody"><button id="button" class="homebutton"><a href="#contactme">Contacter Nous</a></button>
+      <h3 class="socialnetworks">• Nos réseaux sociaux :</h3>
+      <nav class="navabarsocialnetworks">
+        <a id="socialnetworks" href="https://www.facebook.com/people/Centre-BabaAli/100087971930608/"  target="_blank" class="facebook">
+            <span>Facebook</span>
+            <svg viewBox="0 0 126.22 246"><path d="M173.6,27h35.92V70.19h-29.7c-15,2.39-14,19.79-14,19.79v29.33h47.27l-7.05,47.52H166.33V273H119.19V166.09H86.89V119.31h32.3V87.74A68.5,68.5,0,0,1,127,55.49c5.27-9.87,14-20.18,28.41-25.47A53,53,0,0,1,173.6,27Z" transform="translate(-86.89 -27)"/></svg> 
+        </a>
+        <a target="_blank" id="socialnetworks" href="https://www.instagram.com/centre_babaali/" class="instagram">
+            <span>Instagram</span>
+            <svg viewBox="0 0 246.15 246.15"><path d="M201,51.5A47.49,47.49,0,0,1,248.41,99V200.88A47.49,47.49,0,0,1,201,248.32H99a47.49,47.49,0,0,1-47.44-47.44V99A47.49,47.49,0,0,1,99,51.5H201m0-24.66H99A72.11,72.11,0,0,0,26.92,99V200.88A72.12,72.12,0,0,0,99,273H201a72.12,72.12,0,0,0,72.11-72.11V99A72.11,72.11,0,0,0,201,26.84Z" transform="translate(-26.92 -26.84)"/><path class="cls-1" d="M150,124.34a25.57,25.57,0,1,1-25.57,25.57A25.6,25.6,0,0,1,150,124.34m0-24.66a50.24,50.24,0,1,0,50.23,50.23A50.23,50.23,0,0,0,150,99.68Z" transform="translate(-26.92 -26.84)"/><circle class="cls-1" cx="189.98" cy="55.33" r="13.81"/></svg>
+        </a>
+    </nav></div>
+    
+  
+  </div>
+  <img class="babaalilogo" src="babaali logo.jpeg" alt="">
+</div>
+<script src="script.js"></script>
+<div id="apropos" class="apropos">
+  <div class="divapropostitle"> <h1 class="apropostitle">A Propos :</h1></div>
+  <div class="aproposcontent">
+    <div class="slider">
+      <img src="img slide 1.jpg" alt="Image 1" class="slide-image">
+      <img src="img slide 2.jpg" alt="Image 2" class="slide-image">
+    </div>
+    <p class="paraapropos">Le Centre de soutien scolaire BabaAli, avec plus de 20 ans d'expérience, est situé à <a target="_blank" class="linkaprops" href="https://goo.gl/maps/zfxdbrZzaZ9WzH4j6">Rue Prince Moulay Rachid, Biougra 87200</a>. Nous offrons un soutien académique personnalisé pour les élèves de tous niveaux, grâce à une équipe d'enseignants expérimentés et des méthodes pédagogiques efficaces.
+      Notre objectif est de renforcer les compétences et la confiance en soi de chaque élève, dans un environnement d'apprentissage stimulant. Découvrez comment notre expertise peut aider à atteindre vos objectifs scolaires.</p>
+    <button id="button" class="buttonapropos"><a href="#contactme">Contacter Nous</a></button>
+    
+  </div>
+</div>
+<div id="offres" class="offres">
+  <h1 class="offrestitle">Nos Offres :</h1>
+  <h1 class="offressoutientitle"> Offres de Soutien : </h1>
+  <div class="offressoutien">
+    <div id="offrescontent" class="offrescontent1">
+      <img id="imgoffressoutien"  src="primaires offres.jpg" alt="">
+      <div id="content">
+        <h3 id="offrescontenttitle"></h3>
+        <p id="offrescontentpara"></p>
+      </div>
+    </div>
+    <div id="offrescontent" class="offrescontent2">
+      <img id="imgoffressoutien"  src="college offres.jpg" alt="">
+      <div id="content">
+        <h3 id="offrescontenttitle"></h3>
+        <p id="offrescontentpara"></p>
+      </div>
+    </div>
+   
+    <div id="offrescontent" class="offrescontent3">
+      <img id="imgoffressoutien"  src="lycee offres 2bac.jpg" alt="">
+      <div id="content">
+        <h3 id="offrescontenttitle"></h3>
+        <p id="offrescontentpara"></p>
+      </div>
+    </div>
+  </div>
+  <div class="offrescertification2">
+    <div id="offrescontent" class="offrescontent4">
+    <img id="imgoffressoutien"  src="lycee offres 1bac.jpg" alt="">
+    <div id="content">
+      <h3 id="offrescontenttitle"></h3>
+      <p id="offrescontentpara"></p>
+    </div>
+  </div>
+  <div id="offrescontent" class="offrescontent5">
+    <img id="imgoffressoutien"  src="offres.jpg" alt="">
+    <div id="content">
+      <h3 id="offrescontenttitle"></h3>
+      <p id="offrescontentpara"></p>
+    </div>
+  </div>
+ </div>
+ <div class="formations">
+
+  <h3 class="proformationstitle">Formations:</h3>
+  <div class="FormationsProfessionnelles"> 
+    <a target="_blank" href="https://formation.logicat.ma/">
+    <div class="Formationscontent">
+      <img id="imgformations"  src="proformations1.png" alt="">
+      <div id="content">
+        <h3 id="offrescontenttitle"></h3>
+        <p id="offrescontentpara"></p>
+      </div>
+    </div></a>
+    <a  target="_blank" href="https://www.iseadd.eu">
+      <div class="Formationscontent">
+      <img id="imgformations"  src="proformations4.png"  alt="">
+      <div id="content">
+        <h3 id="offrescontenttitle"></h3>
+        <p id="offrescontentpara"></p>
+      </div>
+      </div></a>
+
+  <a target="_blank" href="https://www.elearning-esarc.com">
+    <div class="Formationscontent">
+    <img id="imgformations"  src="proformation3.png" alt="">
+    <div id="content">
+      <h3 id="offrescontenttitle"></h3>
+      <p id="offrescontentpara"></p>
+    </div>
+    </div></a>
+    <a target="_blank" href="https://www.ideo.ma">
+      <div class="Formationscontent">
+      <img id="imgformations"  src="https://www.ideo.ma/wp-content/uploads/2022/01/logo_ideo_header.svg" alt="">
+      <div id="content">
+        <h3 id="offrescontenttitle"></h3>
+        <p id="offrescontentpara"></p>
+      </div>
+      </div></a>
+ </div>
+</div>
+</div>
+<div id="contactme" class="contactme">
+  <section class="contact">
+    <div class="content">
+      <h2>Contact Us </h2>
+      <p>Le Centre de soutien scolaire BabaAli est situé à Rue Prince Moulay Rachid, Biougra 87200. Pour toute question, contactez-nous au [insérer numéro] ou par email à [insérer adresse email]. Nous sommes là pour vous accompagner dans votre parcours scolaire.</p>
+    </div>
+    <div class="container">
+      <div class="contactInfo">
+        <div class="box">
+          <div class="icon"></div>
+          <div class="text">
+            <h3>Address</h3>
+            <p>Rue Prince Moulay Rachid, Biougra 87200.</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icon"></div>
+          <div class="text">
+            <h3>Email</h3>
+            <p>email</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icon"></div>
+          <div class="text">
+            <h3>Phone</h3>
+            <p>[+212]</p>
+          </div>
+        </div>
+      </div>
+      <div class="contactForm">
+        <form onsubmit="sendMail(); reset(); return false ;">
+          <h2>Send Message</h2>
+          <div class="inputBox">
+            <input type="text" name="" required="required" id="name">
+            <span>Full Name</span>
+          </div>
+          <div class="inputBox">
+            <input type="email" name="" required="required" id="email">
+            <span>Email</span>
+          </div>
+          <div class="inputBox">
+            <textarea required="required" id="message"></textarea>
+            <span>Type your Message: </span>
+          </div>
+          <div class="inputBox">
+            <button  class="buttonsubmit">Send</button>
+          </div>
+          <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "YOUR_PUBLIC_KEY",
+      });
+   })();
+</script>
+</div>
+</div>
+</div>
+<div class="footer">
+  <div class="logofooter"><img  src="babaali logo.jpeg" alt=""></div>
+  <p class="Copyrightfooter">Copyright © 2024 Centre-BabaAli</p>
+  <p class="developper">Créé par : MohamedB</p>
+  
+</div>
+</body>
+</html>
